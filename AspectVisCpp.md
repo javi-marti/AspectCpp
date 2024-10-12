@@ -602,6 +602,7 @@ Your you AspectVisCpp is now complete. Take a moment to enjoy playing with instr
 
 If you like, you can now continue extending your plugin. Some suggestions:
 
+- Try injecting the instrumentation right after the existing `printf` in the test function body.
 - Pass the name of the instrumented function to `__aspect_log_f`.
 - Use the `aspect` attribute in classes, like we discussed with `__attribute((cold))`, that lets you specify `aspect` on a class and let all member functions be `aspect` functions by default.
     - You can get inspiration for how to traverse a class members by looking at our in-tree patch that landed in GCC 14. Commit here: https://github.com/gcc-mirror/gcc/commit/4f52e61e0665e760b95975b4d49437873967be2e
