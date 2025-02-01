@@ -178,8 +178,8 @@ attribute_spec attrs_to_register[] = { aspect_attr, NULL };
 
 static void cb_attribute_registration( void* eventData, void* userData ) {
 
-    /* this is the [[viscon::attribute]] syntax */
-    register_scoped_attributes( attrs_to_register, "viscon" /*, false */); /* api change in older versions */
+    /* this is the [[javi::attribute]] syntax */
+    register_scoped_attributes( attrs_to_register, "javi" /*, false */); /* api change in older versions */
 }
 
 int plugin_init(struct plugin_name_args *plugin_info, struct plugin_gcc_version *version)
