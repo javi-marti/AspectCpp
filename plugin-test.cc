@@ -8,7 +8,7 @@ extern "C" {
     }
 }
 
-[[viscon::aspect]] void foo_log()
+[[javi::aspect]] void foo_log()
 {
     printf("foo enter\n"); // if format string given, too long for Three Address Code single stment.
 
