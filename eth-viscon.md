@@ -1,4 +1,4 @@
-# Your first plugin: AspectVisCpp
+# Your first plugin: AspectCpp
 
 You are writing a first approximation of an [Aspect Oriented Programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming) variant of C++. The entire plugin is only about 100 lines, including boilerplate.
 
@@ -598,7 +598,7 @@ extern "C" {
 ```
 
 ## Congratulations
-Your you AspectVisCpp is now complete. Take a moment to enjoy playing with instrumenting different functions.
+Your you AspectCpp is now complete. Take a moment to enjoy playing with instrumenting different functions.
 
 If you like, you can now continue extending your plugin. Some suggestions:
 
